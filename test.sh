@@ -8,13 +8,13 @@ if [ 2 -gt 3 -o 4 -lt 6 ]
 then
    echo `free -h`
 else
-   echo "不合理..."
+   echo "unreasonable..."
 fi
 
 str3='abc'
 if [ 'abc' = $str3 ]
 then
-    echo '相等'
+    echo 'equal'
 else
-    echo '不想等'
+    echo 'not equal'
 fi
